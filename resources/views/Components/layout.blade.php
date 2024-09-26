@@ -14,13 +14,13 @@
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <img class="h-8 w-8" src="https://i.ibb.co/M97GpQC/logo-remove.png" alt="Your Company">
+            <img class="h-8 w-8" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d00921e-cbf3-470c-84b0-089619cd5fe3/d4yvtsa-5b81691c-5572-4b24-a0cf-bd2d00780954.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkMDA5MjFlLWNiZjMtNDcwYy04NGIwLTA4OTYxOWNkNWZlM1wvZDR5dnRzYS01YjgxNjkxYy01NTcyLTRiMjQtYTBjZi1iZDJkMDA3ODA5NTQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J-lFWrb1u6YKgE0I2DtAN3byPO7eJuZaXOpjq5lk55A" alt="Your Company">
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-              <x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link>
+              <x-nav-link href="/jobs" :active="request()->is('jobs')">Jobs</x-nav-link>
               <x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link>
             </div>
           </div>
